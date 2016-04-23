@@ -2,7 +2,7 @@
 Cookie Warning Window is jQuery plugin that give's u responsive popup message for Your website. This plugins includes jQuery Cookie Plugin v1.3.1 by Klaus Hartl
 
 #Demo
-http://www.avatec.pl/cookieww2/
+http://www.avatec.pl/cookieww/v2/
 
 #Enabling on your site
 Please just insert those lines in your head tag
