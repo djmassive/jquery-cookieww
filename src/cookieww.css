@@ -1,52 +1,74 @@
 #cwwb {
-	width: 100%;
-	position: fixed;
-	right: 0px;
-	bottom: 0px;
-	z-index: 1;
-	background: rgba(0,0,0,85);
-	padding: 15px;
-	font-size: .70em;
-	color: #ccc;
-	line-height: 1.4em;
-	opacity: 0;
-	animation-delay: .5s;
-	animation: show .5s linear;
-	animation-fill-mode: forwards;
-	-webkit-animation-delay: 2s;
-	box-shadow: 0px 0px 25px #232323;
-	text-align: center;
-}
-
-#cwwb a { color: #fff; text-decoration: none; }
-#cwwb a { color: yellow; }
-#cwwb button { background: none; border: none; }
-
-#cwwb .text { width: 90%; float: left; text-align: justify; padding-right: 10px;}
-#cwwb .button { width: 10%; float: right; padding-top: 10px; padding-left: 10px; text-align: right: }
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  width: 100%;
+  right: 0px;
+  bottom: 0px;
+  background: rgba(33, 82, 148, 0.95);
+  color: #ffffff;
+  padding: 10px;
+  animation: show 1s ease-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s; }
+  #cwwb a {
+    color: #efefef;
+    text-decoration: none; }
+    #cwwb a:hover {
+      color: #e2e2e2; }
+  #cwwb .text {
+    max-width: 80%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-size: 9pt; }
+    #cwwb .text button {
+      background: #132f55;
+      border: none;
+      padding: 5px 10px;
+      margin-left: 20px;
+      position: absolute;
+      right: 10px !important;
+      bottom: 5px; }
+      #cwwb .text button:hover {
+        background: #1c467f; }
+    @media screen and (min-width: 320px) {
+      #cwwb .text {
+        max-width: 90%;
+        line-height: 13pt;
+        font-size: 9pt; }
+        #cwwb .text button {
+          position: relative;
+          left: auto !important;
+          right: auto !important;
+          width: 80%;
+          margin-left: 0px; } }
+    @media screen and (min-width: 960px) {
+      #cwwb .text {
+        max-width: 90%;
+        line-height: 14pt;
+        font-size: 8pt; }
+        #cwwb .text button {
+          position: absolute;
+          right: 10px !important;
+          width: auto; } }
 
 @keyframes show {
   0% {
     display: block;
     opacity: 0;
-    right: -33%;
-  }
+    bottom: -33%; }
   99% {
-    display: block;
-  }
+    display: block; }
   100% {
     display: none;
-    right: 0px;
-    opacity: 1;
-  }
-}
+    bottom: 0px;
+    opacity: 1; } }
 
 @media screen and (max-width: 768px) {
-	#cwwb {
-		width: 100%;
-		bottom: 0px;
-		border-radius: 0px;
-		-webkit-boder-radius: 0px;
-		-moz-border-radius: 0px;
-	}
-}
+  #cwwb {
+    width: 100%;
+    bottom: 0px;
+    border-radius: 0px;
+    -webkit-boder-radius: 0px;
+    -moz-border-radius: 0px; } }

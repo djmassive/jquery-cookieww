@@ -20,7 +20,7 @@
 	$.fn.cmsciw = function( options ) {
     	var defaults = {
 	    	text : 'Na naszych stronach internetowych stosujemy pliki cookies. Korzystając z naszych serwisów internetowych bez zmiany ustawień przeglądarki wyrażasz zgodę na stosowanie plików cookies.',
-	    	button: '<span class="fa fa-check fa-2x"></span>',
+	    	button: 'OK',
 	    	cookie_expire: 3600
 	    	
     	}
@@ -30,8 +30,7 @@
     	if(!isCookieExists) {
     	
 	    	var template = '<div id="cwwb">'
-	    	+ '<div class="text">' + o.text + '</div>'
-	    	+ '<div class="button"><button type="button" id="cwwb-btn-ok">' + o.button + '</button></div>'
+	    	+ '<div class="text">' + o.text + '<button type="button" id="cwwb-btn-ok">' + o.button + '</button></div>'
 	    	+ '</div>';
 	    	
 	    	$("body").append( template );
