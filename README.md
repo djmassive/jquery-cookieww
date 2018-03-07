@@ -1,3 +1,6 @@
+A free and lightweight solution to the EU Cookie Law.
+Requires jQuery
+
 Cookie Warning Window - version 1.2
 Cookie Warning Window is jQuery plugin that give's u responsive popup message for Your website. This plugins includes jQuery Cookie Plugin v2.1.4 by Klaus Hartl & Fagner Brack (https://github.com/js-cookie/js-cookie)
 
