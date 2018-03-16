@@ -1,3 +1,8 @@
+**Pure JS Version**
+
+https://github.com/djmassive/eucookielaw
+
+
 A free and lightweight solution to the EU Cookie Law.
 Requires jQuery
 
